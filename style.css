@@ -1,0 +1,9 @@
+body{
+    background: fixed;
+    border: dotted solid black;
+    padding: 2px;
+}
+header{
+    font-size: large;
+font-style: italic;
+}
