@@ -2,8 +2,14 @@ body{
     background: fixed;
     border: dotted solid black;
     padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     font-size: large;
 font-style: italic;
+}
+.One {
+    border: dotted solid black;
+    padding: 2px;
+    background-color: aliceblue;
 }
