@@ -3,6 +3,7 @@ body{
     
     padding: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
 }
 header{
     font-size: large;
@@ -13,3 +14,4 @@ font-style: italic;
     padding: 2px;
     background-color: aliceblue;
 }
+
