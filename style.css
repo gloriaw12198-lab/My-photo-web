@@ -8,6 +8,7 @@ body{
 header{
     font-size: large;
 font-style: italic;
+text-align: center;
 }
 .One {
     border: 1px solid black; 
