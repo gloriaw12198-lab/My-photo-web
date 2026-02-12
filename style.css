@@ -1,22 +1,156 @@
-body{
-    background: fixed;
-    
-    padding: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:peachpuff;
-}
-header{
-    font-size: xx-large;
-font-style: italic;
-text-align: center;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
 }
-.One {
-    border: 2px solid black;
-    padding: 2px;
-    background-color: aliceblue;
-    border-radius: 8px;
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
 }
 
 
+header {
+  background: linear-gradient(135deg, #ff8fb1, #ffd6e5);
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#\ My\ Bio {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
 
+
+#\ My\ Bio h1 {
+  margin-bottom: 20px;
+  color: #ff5f9e;
+}
+#\ My\ Bio img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 16px;
+  margin: 20px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+#\ My\ Bio p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.one {
+  margin-top: 30px;
+}
+
+.one strong {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.one ul {
+  list-style: none;
+}
+
+.one li {
+  margin: 10px 0;
+}
+
+.one a {
+  text-decoration: none;
+  color: #ff5f9e;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.one a:hover {
+  color: #c2185b;
+}
+footer {
+  background: #333;
+  color: white;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer li {
+  margin: 8px 0;
+}
+
+footer a {
+  color: #ffd6e5;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+form ul {
+  list-style: none;
+}
+
+form li {
+  margin-top: 15px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff5f9e;
+}
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #ff5f9e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #c2185b;
+}
+@media (max-width: 600px) {
+  header {
+    font-size
